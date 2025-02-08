@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Amazon Invoice Downloader",
+  "version": "1.0",
+  "description": "Automatically downloads invoices for all orders on Amazon.",
+  "permissions": ["tabs", "downloads", "scripting", "activeTab"],
+  "host_permissions": ["https://www.amazon.com/gp/your-account/order-history*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon-16.png",
+      "48": "icon-48.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.amazon.com/gp/your-account/order-history*"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "https://images-na.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/whitelisted/desktop/sf-1.50.7515ec59.js"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
