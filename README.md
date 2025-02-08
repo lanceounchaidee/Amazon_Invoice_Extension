@@ -9,13 +9,12 @@ This tool was created to **simplify downloading invoices** for purposes such as 
 
 ## 📆 History of Progress  
 
-### **📅 Date Created:** `[YYYY-MM-DD]` *(Replace with actual date)*  
+### **📅 Date Created:** `[2025-02-08]` *(Replace with actual date)*  
 
 ### **🛠️ Patch Notes**  
-- **v1.0** `[YYYY-MM-DD]` - Initial release with basic functionality.  
-- **v1.1** `[YYYY-MM-DD]` - Improved invoice detection and tab handling.  
-- **v1.2** `[YYYY-MM-DD]` - Implemented automation for clicking the "Print" button.  
-- **v1.3** `[YYYY-MM-DD]` - Added support for handling Chrome’s print preview (`chrome://print`).  
+- **v1.0** `[2025-02-08]` - Initial release with basic functionality.  
+- **v1.1** `[2025-02-08]` - Improved invoice detection and tab handling.  
+- **v1.2** `[2025-02-08]` - Implemented automation for clicking the "Print" button.  
 
 ---
 
